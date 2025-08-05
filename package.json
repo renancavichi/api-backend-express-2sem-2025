@@ -1,0 +1,18 @@
+{
+  "name": "api-express-backend",
+  "version": "1.0.0",
+  "description": "API Backend com Express, Prisma e Zod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "prisma",
+    "zod",
+    "mysql"
+  ],
+  "author": "Renan Cavichi",
+  "license": "ISC"
+}
