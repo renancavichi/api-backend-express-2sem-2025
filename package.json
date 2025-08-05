@@ -2,8 +2,10 @@
   "name": "api-express-backend",
   "version": "1.0.0",
   "description": "API Backend com Express, Prisma e Zod",
-  "main": "index.js",
-  "scripts": {},
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "keywords": [
     "node",
     "express",
