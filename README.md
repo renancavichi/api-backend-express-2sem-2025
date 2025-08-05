@@ -25,3 +25,5 @@ ou
 - O que é o Express
 - Protocolo http
 - Métodos http (GET, POST, PUT, PATCH, DELETE)
+- Como mudar o formato de importação/exportação de require para import
+(Adicionar no package.json a propriedade type: "module")
