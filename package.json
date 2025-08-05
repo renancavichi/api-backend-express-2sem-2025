@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "API Backend com Express, Prisma e Zod",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [
     "node",
     "express",
@@ -14,5 +12,8 @@
     "mysql"
   ],
   "author": "Renan Cavichi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
