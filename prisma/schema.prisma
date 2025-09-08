@@ -13,4 +13,5 @@ model user {
   name  String @db.VarChar(255)
   email String @unique(map: "email") @db.VarChar(255)
   pass  String @db.VarChar(255)
+  avatar String? @db.Text
 }
