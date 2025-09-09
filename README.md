@@ -33,10 +33,11 @@ ou
 - Sigla MVC
 - Para que serve o Padrão de Projeto MVC?
 - Qual a responsabilidade das camadas de Modelo, Visão e Controle?
+- O que é um ORM
+- Prisma ORM
 
 Próximas Aulas
 
-- Prisma ORM
 - Validação de Dados (Regras de Negócio) com Zod
 - Padrão de Projeto Middleware
 
@@ -54,7 +55,7 @@ app.post('/produto', (req, res) => {
 ## Comandos do Prisma
 
 - Intalação do Prisma
-  - npm i prisma - D
+  - npm i prisma -D
   - npm i @prima/client
 
  - Inicializar o Prisma
