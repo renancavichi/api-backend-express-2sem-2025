@@ -1,4 +1,5 @@
 import express from 'express'
+import authRouter from './routers/authRouter.js'
 import profileRouter from './routers/profileRouter.js'
 import productRouter from './routers/productRouter.js'
 import supplierRouter from './routers/supplierRouter.js'
@@ -13,10 +14,12 @@ app.use(logger)
 app.use(cors())
 app.use(express.json()) // Converter o JSON que chegou na requisição em um objeto js e vai salvar em req.body
 
+app.use('/auth', authRouter)
 app.use('/product', productRouter)
 app.use('/supplier', supplierRouter)
 app.use('/customer', customerRouter)
 app.use('/profile', profileRouter)
+
 
 app.listen(port, () => {
   console.log(`API Rodando em http://localhost:${port}`)  
