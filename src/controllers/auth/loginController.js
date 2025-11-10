@@ -15,7 +15,6 @@ export const loginController = async (req, res) => {
 
     const passOk = await bcrypt.compare(pass, user.pass)
     if (!passOk) {
-        console.error('Senha inválida')
         return res.status(401).json({ message: 'Email ou Senha Inválida' })
     }
 
