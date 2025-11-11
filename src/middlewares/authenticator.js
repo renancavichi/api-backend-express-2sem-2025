@@ -14,7 +14,10 @@ export const authenticator = (req, res, next) => {
         req.userLogged = payload
     } catch (err) {
         console.error('Erro ao verificar o token:', err)
-        return res.status(401).json({ message: 'Token inválido!' })
+        return res.status(401).json({ 
+            message: 'Token inválido!',
+            errorCode: 'TOKEN_INVALID'
+         })
     }
     next()
 }

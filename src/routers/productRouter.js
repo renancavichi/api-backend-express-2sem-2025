@@ -4,12 +4,14 @@ import { listProductController } from '../controllers/product/listProductControl
 import { getByIdProductController } from '../controllers/product/getByIdProductController.js'
 import { editProductController } from '../controllers/product/editProductController.js'
 import { deleteProductController } from '../controllers/product/deleteProductController.js'
+import { authenticator } from '../middlewares/authenticator.js'
 
 const router = express.Router()
 
-router.post('/', createProductController)
 router.get('/', listProductController)
 router.get('/:id', getByIdProductController)
+router.use(authenticator)
+router.post('/', createProductController)
 router.put('/:id', editProductController)
 router.delete('/:id', deleteProductController)
 
