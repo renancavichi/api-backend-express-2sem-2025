@@ -18,12 +18,13 @@
 - O que é um ORM
 - Prisma ORM
 - Padrão de Projeto Middleware
+- Autenticação e Login de Usuários
+- Validação de Dados (Regras de Negócio) com Zod
 
 Próximas Aulas
 
-- Validação de Dados (Regras de Negócio) com Zod
 - ErroHandler (Middleware para tratamento de erros da api)
-- Autenticação e Login de Usuários
+
 
 ## Sintaxe básica de uma rota no express
 Sintaxe básica de uma rota da API. Exemplo:
